@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myx Shop - 主页 | SSM注册企业</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+
+        header {
+            background: rgba(255,255,255,0.95);
+            padding: 2rem;
+            text-align: center;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .logo { font-size: 3rem; color: #667eea; margin-bottom: 1rem; }
+        h1 { color: #2d3748; font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .tagline { color: #667eea; font-size: 1.2rem; margin-bottom: 1rem; }
+
+        .ssm-badge {
+            background: #48bb78;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .nav-card {
+            background: rgba(255,255,255,0.95);
+            padding: 2rem;
+            border-radius: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .nav-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .nav-icon {
+            font-size: 3rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: rgba(255,255,255,0.95);
+            padding: 2rem;
+            text-align: center;
+            border-radius: 20px;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-store"></i>
+            </div>
+            <h1>Myx Shop</h1>
+            <p class="tagline">SSM注册企业 | 多元化服务平台</p>
+            <div class="ssm-badge">
+                <i class="fas fa-certificate"></i> SSM注册: 202510210078 (JM1034075-K)
+            </div>
+            <p>欢迎来到 Myx Shop - 您的一站式服务平台</p>
+        </header>
+
+        <div class="nav-grid">
+            <a href="stocks.html" class="nav-card">
+                <div class="nav-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>AI选股分析</h3>
+                <p>智能选股策略与市场分析</p>
+                <div style="margin-top: 1rem; color: #667eea;">
+                    <i class="fas fa-arrow-right"></i> 查看分析报告
+                </div>
+            </a>
+
+            <a href="products.html" class="nav-card">
+                <div class="nav-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                </div>
+                <h3>产品管理</h3>
+                <p>热门产品推荐与优惠</p>
+                <div style="margin-top: 1rem; color: #667eea;">
+                    <i class="fas fa-arrow-right"></i> 浏览产品
+                </div>
+            </a>
+
+            <a href="vehicles.html" class="nav-card">
+                <div class="nav-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <h3>车辆管理</h3>
+                <p>车辆信息与市场分析</p>
+                <div style="margin-top: 1rem; color: #667eea;">
+                    <i class="fas fa-arrow-right"></i> 查看车辆
+                </div>
+            </a>
+
+            <a href="shopee.html" class="nav-card">
+                <div class="nav-icon">
+                    <i class="fas fa-store"></i>
+                </div>
+                <h3>Shopee</h3>
+                <p>Shopee平台集成</p>
+                <div style="margin-top: 1rem; color: #667eea;">
+                    <i class="fas fa-arrow-right"></i> 管理店铺
+                </div>
+            </a>
+
+            <a href="lazada.html" class="nav-card">
+                <div class="nav-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>Lazada</h3>
+                <p>Lazada平台集成</p>
+                <div style="margin-top: 1rem; color: #667eea;">
+                    <i class="fas fa-arrow-right"></i> 管理店铺
+                </div>
+            </a>
+
+            <a href="admin.html" class="nav-card">
+                <div class="nav-icon">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <h3>管理面板</h3>
+                <p>系统管理与设置</p>
+                <div style="margin-top: 1rem; color: #667eea;">
+                    <i class="fas fa-arrow-right"></i> 系统设置
+                </div>
+            </a>
+        </div>
+
+        <footer>
+            <div class="company-info">
+                <p><strong>Myx Shop</strong></p>
+                <p>SSM Reg No: 202510210078 (JM1034075-K) | Registered in Malaysia</p>
+                <p>© 2025 Myx Shop. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
